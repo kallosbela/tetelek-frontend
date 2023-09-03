@@ -5,7 +5,7 @@ import { Tetelek } from "./Tetelek";
 import { Cikk } from "./Cikk";
 import { Me } from "./Me";
 
-export const Tables = ({setIsAuthenticated}) => {
+const Tables = ({setIsAuthenticated}) => {
   const [tetelek, setTetelek] = useState(null);
   const [me, setMe] = useState(null);
   const [cikk, setCikk] = useState(null);

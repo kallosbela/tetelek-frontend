@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Tables } from "./components/Tables";
+import Tables from "./components/Tables";
 import SignInComponent from "./components/SignIn";
 import jwt_decode from "jwt-decode";
 import {
-  Box,
   Heading,
-  VStack,
   Card,
   CardBody,
   CardHeader,
